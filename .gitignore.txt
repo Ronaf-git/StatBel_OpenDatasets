@@ -1,0 +1,49 @@
+# Ignore log files
+*.log
+
+# Ignore OS-specific files (macOS, Windows, Linux)
+.DS_Store
+Thumbs.db
+
+# Ignore compiled files
+*.class
+*.o
+*.so
+*.exe
+
+# Ignore build directories
+dist/
+build/
+Output/
+
+# Ignore Python bytecode
+__pycache__/
+*.py[cod]
+
+# Ignore IDE/editor configurations (e.g., VSCode, JetBrains, etc.)
+.vscode/
+.idea/
+
+# Ignore environment variables (for local development setups)
+.env
+.env.local
+
+# Ignore test coverage reports
+coverage/
+
+# Ignore npm debug logs
+npm-debug.log
+
+# Ignore dependency lock files (if you don't want to track them)
+package-lock.json
+yarn.lock
+
+# Ignore Jupyter Notebooks checkpoints
+.ipynb_checkpoints/
+
+# Ignore virtual environments (for Python projects)
+venv/
+env/
+
+#ignore my release folder
+release/
